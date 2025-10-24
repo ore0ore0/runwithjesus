@@ -1,9 +1,0 @@
-{
-  "functions": {
-    "app/api/uploads/photos/route.ts": { "runtime": "edge" },
-    "app/api/uploads/gpx/route.ts": { "runtime": "edge" },
-    "app/api/posts/route.ts": { "runtime": "nodejs20.x" },
-    "app/api/events/route.ts": { "runtime": "nodejs20.x" },
-    "app/api/auth/[...nextauth]/route.ts": { "runtime": "nodejs20.x" }
-  }
-}
