@@ -25,11 +25,17 @@ This avoids Next.js trying to prerender them at build time (which would require 
 For local dev, ensure `.env` has `POSTGRES_URL` (pull from Vercel via `vercel env pull .env`), or run `npm run dev` which fetches at request-time.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> cc29d62 (clean deploy bundle)
 
 
 ### Runtime configuration
 This project relies on per-route runtime exports (no `vercel.json`).
 - DB/Auth routes: `export const runtime = 'nodejs'`
 - Upload routes: `export const runtime = 'edge'`
+<<<<<<< HEAD
 >>>>>>> 2a033da (clean deploy bundle)
+=======
+>>>>>>> cc29d62 (clean deploy bundle)
