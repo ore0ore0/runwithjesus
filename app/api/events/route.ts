@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+export const runtime = 'nodejs';
+
+>>>>>>> 2a033da (clean deploy bundle)
 import { sql } from '@vercel/postgres';
 export const dynamic = 'force-dynamic';
 export async function GET(){
