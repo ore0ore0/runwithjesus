@@ -1,0 +1,1 @@
+// Not used: we rely on @vercel/postgres + SQL. Kept for future Prisma adoption.
